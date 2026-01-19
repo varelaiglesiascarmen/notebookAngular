@@ -1,18 +1,17 @@
+import { HarePageComponent } from './hare-page.component';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HeroPageComponent } from './hero-page.component';
-
-describe('HeroPageComponent', () => {
-  let component: HeroPageComponent;
-  let fixture: ComponentFixture<HeroPageComponent>;
+describe('HarePageComponent', () => {
+  let component: HarePageComponent;
+  let fixture: ComponentFixture<HarePageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [HeroPageComponent]
+      imports: [HarePageComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(HeroPageComponent);
+    fixture = TestBed.createComponent(HarePageComponent);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

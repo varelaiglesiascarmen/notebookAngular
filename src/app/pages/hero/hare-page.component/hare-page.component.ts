@@ -3,11 +3,11 @@ import { Component, signal } from '@angular/core';
 @Component({
   selector: 'app-hero-page.component.html',
   imports: [],
-  templateUrl: './hero-page.component.html',
-  styleUrl: './hero-page.component.css',
+  templateUrl: './hare-page.component.html',
+  styleUrl: './hare-page.component.css',
 })
 
-export class HeroPageComponent {
+export class HarePageComponent {
 
   // señales para el nombre y la edad del héroe
   name = signal ('Ironman');
