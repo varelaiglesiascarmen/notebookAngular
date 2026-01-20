@@ -1,10 +1,7 @@
 import { Component, signal } from '@angular/core';
 
 @Component({
-  selector: 'app-hero-page.component.html',
-  imports: [],
   templateUrl: './hare-page.component.html',
-  styleUrl: './hare-page.component.css',
 })
 
 export class HarePageComponent {
@@ -23,7 +20,7 @@ export class HarePageComponent {
 
   //devuelve la info del personaje
   getHeroDescription (): string {
-    return `${ this.heroName } is ${ this.heroAge } years old.`;
+    return `${ this.heroName } tiene ${ this.heroAge } años.`;
   }
 
   // cambia a Spiderman
